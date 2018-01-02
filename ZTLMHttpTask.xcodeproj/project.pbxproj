@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF19A7B11FFB25040038C9B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF19A7B01FFB25040038C9B1 /* AppDelegate.m */; };
+		FF19A7B41FFB25040038C9B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF19A7B31FFB25040038C9B1 /* ViewController.m */; };
+		FF19A7B71FFB25040038C9B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF19A7B51FFB25040038C9B1 /* Main.storyboard */; };
+		FF19A7B91FFB25040038C9B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF19A7B81FFB25040038C9B1 /* Assets.xcassets */; };
+		FF19A7BC1FFB25040038C9B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF19A7BA1FFB25040038C9B1 /* LaunchScreen.storyboard */; };
+		FF19A7BF1FFB25040038C9B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF19A7BE1FFB25040038C9B1 /* main.m */; };
+		FF19A7C91FFB25050038C9B1 /* ZTLMHttpTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF19A7C81FFB25050038C9B1 /* ZTLMHttpTaskTests.m */; };
+		FF19A7D41FFB25050038C9B1 /* ZTLMHttpTaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF19A7D31FFB25050038C9B1 /* ZTLMHttpTaskUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF19A7C51FFB25050038C9B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF19A7A41FFB25040038C9B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF19A7AB1FFB25040038C9B1;
+			remoteInfo = ZTLMHttpTask;
+		};
+		FF19A7D01FFB25050038C9B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF19A7A41FFB25040038C9B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF19A7AB1FFB25040038C9B1;
+			remoteInfo = ZTLMHttpTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF19A7AC1FFB25040038C9B1 /* ZTLMHttpTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTLMHttpTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF19A7AF1FFB25040038C9B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF19A7B01FFB25040038C9B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF19A7B21FFB25040038C9B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF19A7B31FFB25040038C9B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF19A7B61FFB25040038C9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF19A7B81FFB25040038C9B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF19A7BB1FFB25040038C9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF19A7BD1FFB25040038C9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF19A7BE1FFB25040038C9B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF19A7C41FFB25050038C9B1 /* ZTLMHttpTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZTLMHttpTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF19A7C81FFB25050038C9B1 /* ZTLMHttpTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTLMHttpTaskTests.m; sourceTree = "<group>"; };
+		FF19A7CA1FFB25050038C9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF19A7CF1FFB25050038C9B1 /* ZTLMHttpTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZTLMHttpTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF19A7D31FFB25050038C9B1 /* ZTLMHttpTaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTLMHttpTaskUITests.m; sourceTree = "<group>"; };
+		FF19A7D51FFB25050038C9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF19A7A91FFB25040038C9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF19A7C11FFB25050038C9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF19A7CC1FFB25050038C9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF19A7A31FFB25040038C9B1 = {
+			isa = PBXGroup;
+			children = (
+				FF19A7AE1FFB25040038C9B1 /* ZTLMHttpTask */,
+				FF19A7C71FFB25050038C9B1 /* ZTLMHttpTaskTests */,
+				FF19A7D21FFB25050038C9B1 /* ZTLMHttpTaskUITests */,
+				FF19A7AD1FFB25040038C9B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF19A7AD1FFB25040038C9B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF19A7AC1FFB25040038C9B1 /* ZTLMHttpTask.app */,
+				FF19A7C41FFB25050038C9B1 /* ZTLMHttpTaskTests.xctest */,
+				FF19A7CF1FFB25050038C9B1 /* ZTLMHttpTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF19A7AE1FFB25040038C9B1 /* ZTLMHttpTask */ = {
+			isa = PBXGroup;
+			children = (
+				FF19A7AF1FFB25040038C9B1 /* AppDelegate.h */,
+				FF19A7B01FFB25040038C9B1 /* AppDelegate.m */,
+				FF19A7B21FFB25040038C9B1 /* ViewController.h */,
+				FF19A7B31FFB25040038C9B1 /* ViewController.m */,
+				FF19A7B51FFB25040038C9B1 /* Main.storyboard */,
+				FF19A7B81FFB25040038C9B1 /* Assets.xcassets */,
+				FF19A7BA1FFB25040038C9B1 /* LaunchScreen.storyboard */,
+				FF19A7BD1FFB25040038C9B1 /* Info.plist */,
+				FF19A7BE1FFB25040038C9B1 /* main.m */,
+			);
+			path = ZTLMHttpTask;
+			sourceTree = "<group>";
+		};
+		FF19A7C71FFB25050038C9B1 /* ZTLMHttpTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF19A7C81FFB25050038C9B1 /* ZTLMHttpTaskTests.m */,
+				FF19A7CA1FFB25050038C9B1 /* Info.plist */,
+			);
+			path = ZTLMHttpTaskTests;
+			sourceTree = "<group>";
+		};
+		FF19A7D21FFB25050038C9B1 /* ZTLMHttpTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF19A7D31FFB25050038C9B1 /* ZTLMHttpTaskUITests.m */,
+				FF19A7D51FFB25050038C9B1 /* Info.plist */,
+			);
+			path = ZTLMHttpTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF19A7AB1FFB25040038C9B1 /* ZTLMHttpTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF19A7D81FFB25050038C9B1 /* Build configuration list for PBXNativeTarget "ZTLMHttpTask" */;
+			buildPhases = (
+				FF19A7A81FFB25040038C9B1 /* Sources */,
+				FF19A7A91FFB25040038C9B1 /* Frameworks */,
+				FF19A7AA1FFB25040038C9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZTLMHttpTask;
+			productName = ZTLMHttpTask;
+			productReference = FF19A7AC1FFB25040038C9B1 /* ZTLMHttpTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF19A7C31FFB25050038C9B1 /* ZTLMHttpTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF19A7DB1FFB25050038C9B1 /* Build configuration list for PBXNativeTarget "ZTLMHttpTaskTests" */;
+			buildPhases = (
+				FF19A7C01FFB25050038C9B1 /* Sources */,
+				FF19A7C11FFB25050038C9B1 /* Frameworks */,
+				FF19A7C21FFB25050038C9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF19A7C61FFB25050038C9B1 /* PBXTargetDependency */,
+			);
+			name = ZTLMHttpTaskTests;
+			productName = ZTLMHttpTaskTests;
+			productReference = FF19A7C41FFB25050038C9B1 /* ZTLMHttpTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF19A7CE1FFB25050038C9B1 /* ZTLMHttpTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF19A7DE1FFB25050038C9B1 /* Build configuration list for PBXNativeTarget "ZTLMHttpTaskUITests" */;
+			buildPhases = (
+				FF19A7CB1FFB25050038C9B1 /* Sources */,
+				FF19A7CC1FFB25050038C9B1 /* Frameworks */,
+				FF19A7CD1FFB25050038C9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF19A7D11FFB25050038C9B1 /* PBXTargetDependency */,
+			);
+			name = ZTLMHttpTaskUITests;
+			productName = ZTLMHttpTaskUITests;
+			productReference = FF19A7CF1FFB25050038C9B1 /* ZTLMHttpTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF19A7A41FFB25040038C9B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = chenpeng;
+				TargetAttributes = {
+					FF19A7AB1FFB25040038C9B1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					FF19A7C31FFB25050038C9B1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF19A7AB1FFB25040038C9B1;
+					};
+					FF19A7CE1FFB25050038C9B1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF19A7AB1FFB25040038C9B1;
+					};
+				};
+			};
+			buildConfigurationList = FF19A7A71FFB25040038C9B1 /* Build configuration list for PBXProject "ZTLMHttpTask" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF19A7A31FFB25040038C9B1;
+			productRefGroup = FF19A7AD1FFB25040038C9B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF19A7AB1FFB25040038C9B1 /* ZTLMHttpTask */,
+				FF19A7C31FFB25050038C9B1 /* ZTLMHttpTaskTests */,
+				FF19A7CE1FFB25050038C9B1 /* ZTLMHttpTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF19A7AA1FFB25040038C9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF19A7BC1FFB25040038C9B1 /* LaunchScreen.storyboard in Resources */,
+				FF19A7B91FFB25040038C9B1 /* Assets.xcassets in Resources */,
+				FF19A7B71FFB25040038C9B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF19A7C21FFB25050038C9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF19A7CD1FFB25050038C9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF19A7A81FFB25040038C9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF19A7B41FFB25040038C9B1 /* ViewController.m in Sources */,
+				FF19A7BF1FFB25040038C9B1 /* main.m in Sources */,
+				FF19A7B11FFB25040038C9B1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF19A7C01FFB25050038C9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF19A7C91FFB25050038C9B1 /* ZTLMHttpTaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF19A7CB1FFB25050038C9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF19A7D41FFB25050038C9B1 /* ZTLMHttpTaskUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF19A7C61FFB25050038C9B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF19A7AB1FFB25040038C9B1 /* ZTLMHttpTask */;
+			targetProxy = FF19A7C51FFB25050038C9B1 /* PBXContainerItemProxy */;
+		};
+		FF19A7D11FFB25050038C9B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF19A7AB1FFB25040038C9B1 /* ZTLMHttpTask */;
+			targetProxy = FF19A7D01FFB25050038C9B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF19A7B51FFB25040038C9B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF19A7B61FFB25040038C9B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF19A7BA1FFB25040038C9B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF19A7BB1FFB25040038C9B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF19A7D61FFB25050038C9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF19A7D71FFB25050038C9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF19A7D91FFB25050038C9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YM76D5GKC;
+				INFOPLIST_FILE = ZTLMHttpTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CP.ZTLMHttpTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF19A7DA1FFB25050038C9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YM76D5GKC;
+				INFOPLIST_FILE = ZTLMHttpTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CP.ZTLMHttpTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF19A7DC1FFB25050038C9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YM76D5GKC;
+				INFOPLIST_FILE = ZTLMHttpTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CP.ZTLMHttpTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZTLMHttpTask.app/ZTLMHttpTask";
+			};
+			name = Debug;
+		};
+		FF19A7DD1FFB25050038C9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YM76D5GKC;
+				INFOPLIST_FILE = ZTLMHttpTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CP.ZTLMHttpTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZTLMHttpTask.app/ZTLMHttpTask";
+			};
+			name = Release;
+		};
+		FF19A7DF1FFB25050038C9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YM76D5GKC;
+				INFOPLIST_FILE = ZTLMHttpTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CP.ZTLMHttpTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZTLMHttpTask;
+			};
+			name = Debug;
+		};
+		FF19A7E01FFB25050038C9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YM76D5GKC;
+				INFOPLIST_FILE = ZTLMHttpTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CP.ZTLMHttpTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZTLMHttpTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF19A7A71FFB25040038C9B1 /* Build configuration list for PBXProject "ZTLMHttpTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF19A7D61FFB25050038C9B1 /* Debug */,
+				FF19A7D71FFB25050038C9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF19A7D81FFB25050038C9B1 /* Build configuration list for PBXNativeTarget "ZTLMHttpTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF19A7D91FFB25050038C9B1 /* Debug */,
+				FF19A7DA1FFB25050038C9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF19A7DB1FFB25050038C9B1 /* Build configuration list for PBXNativeTarget "ZTLMHttpTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF19A7DC1FFB25050038C9B1 /* Debug */,
+				FF19A7DD1FFB25050038C9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF19A7DE1FFB25050038C9B1 /* Build configuration list for PBXNativeTarget "ZTLMHttpTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF19A7DF1FFB25050038C9B1 /* Debug */,
+				FF19A7E01FFB25050038C9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF19A7A41FFB25040038C9B1 /* Project object */;
+}
