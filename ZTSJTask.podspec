@@ -25,7 +25,8 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   DESC
+                      ZTSJTask.
+                      DESC
 
   s.homepage     = "https://github.com/peterbober/ZTSJTask"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -38,9 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-
+  s.license        = { :type => 'MIT', :file => 'LICENSE' }
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -52,7 +51,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Angry bird" => "email@address.com" }
+  s.author             = { "peterbober" => "chenpengpoli@gmail.com" }
   # Or just: s.author    = "Angry bird"
   # s.authors            = { "Angry bird" => "email@address.com" }
   # s.social_media_url   = "http://twitter.com/Angry bird"
@@ -91,7 +90,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "Classes", "Classes/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.exclude_files = "Classes/"
 
   # s.public_header_files = "Classes/*.h"
 
